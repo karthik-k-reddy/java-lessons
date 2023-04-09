@@ -36,5 +36,12 @@ public class Mapz {
             Map.Entry<Integer,String> temp=entry2.next();
             System.out.println(temp.getKey() +" "+temp.getValue());
         }
+
+        System.out.println(cars.get(1));            //retrieve value using the given key from Map
+
+        for (Map.Entry<Integer,String> entry3: cars.entrySet()){
+            if (entry3.getValue().equals("tata"))
+                System.out.println(entry3.getKey());  //get key using the given value from Map
+        }
     }
 }
