@@ -31,12 +31,14 @@ class CountMe extends Thread{
 
 }
 public class App {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
 
        long startTime= System.currentTimeMillis();
         new CountMe(1).start();
         System.out.println("********************************");
         new CountMe(2).start();
+        System.out.println("********************************");
+        new CountMe(3).start();
         long endTime=System.currentTimeMillis();
         System.out.println(endTime-startTime);
     }
