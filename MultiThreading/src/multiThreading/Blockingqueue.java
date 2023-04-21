@@ -14,7 +14,7 @@ class Producer implements Runnable{
     public void run() {
         while (true) {
             try {
-                Thread.sleep(5000);
+                Thread.sleep(0);
                 queue.put(Blockingqueue.counter++);
                 System.out.println("added:"+Blockingqueue.counter);
             } catch (InterruptedException e) {
@@ -35,7 +35,7 @@ class Consumer  implements Runnable{
     public void run() {
        while (true) {
            try {
-
+                Thread.sleep(3000);
                queue.take();
                System.out.println("removed:"+Blockingqueue.counter);
            } catch (InterruptedException e) {

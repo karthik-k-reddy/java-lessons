@@ -1,9 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Generics.App" type="Application" factoryName="Application" nameIsGenerated="true">
+  <configuration default="false" name="Blockingqueue" type="Application" factoryName="Application" nameIsGenerated="true">
     <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-    <option name="MAIN_CLASS_NAME" value="Generics.App" />
-    <module name="java-lessons" />
+    <option name="MAIN_CLASS_NAME" value="multiThreading.Blockingqueue" />
     <extension name="coverage">
       <pattern>
         <option name="PATTERN" value="iterators.*" />
